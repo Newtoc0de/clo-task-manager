@@ -17,5 +17,9 @@
       <% end %>
   </ul>
 
-  <%= link_to "Ajouter une tâche", new_task_path %>
+  <hr>
+  
+  <%= link_to new_task_path do %>
+    <i class="fa-solid fa-plus"></i> Créer une nouvelle tâche
+  <% end %>
 </div>
